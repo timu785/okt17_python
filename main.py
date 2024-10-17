@@ -9,4 +9,4 @@ print("2. feladat")
 print(f"A negatív számok összege: {feladatok.ketto(lista)}")
 
 print("3. feladat")
-
+print(f"Az öttel osztható számok átlaga: {feladatok.harom(lista)}")

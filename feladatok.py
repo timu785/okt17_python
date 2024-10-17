@@ -23,8 +23,16 @@ def ketto(lista):
         i+=1
     return ossz
 
-def ketto(lista):
+def harom(lista):
     ossz:int=0
+    db:int=0
+    i:int=1
+    while(i<=len(lista)):
+        if(lista[i-1]%5==0):
+            ossz+=lista[i-1]
+            db+=1
+        i+=1
+    return (ossz/db)
 
 
 
